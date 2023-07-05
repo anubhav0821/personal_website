@@ -1,0 +1,179 @@
+ @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&display=swap');
+
+
+
+.top-container{
+    background-color: #e4f9f5;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud1{
+    position: absolute;
+    width: 20%;
+    top: 5%;
+    right: 60%;
+}
+.cloud2{
+    position: absolute;
+    width: 20%;
+    top: 33%;
+    right: 14%;
+}
+.text{
+ display: block;
+ text-align: center;
+ margin-top: 150px;
+}
+
+span{
+    text-decoration: underline #6527BE;
+}
+.mountain{
+ width: 50%;
+ height: auto;
+ margin: auto;
+}
+
+.text{
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-size:  150%;
+    color: #6527BE;
+}
+
+.text h1{
+    font-size: 50px;
+}
+.text h3{
+    margin-top: -2%;
+}
+
+
+.profile{
+    margin-top: 70px;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.middle-container img{
+    border-radius: 50%;
+    height: 180px;
+}
+
+
+.middle-container  .hello{
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-size:  45px;
+    color: #6527BE;
+    margin-bottom: -50px;
+}
+
+.intro{
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 10%;
+}
+
+.middle-container hr{
+    border: dotted #45CFDD 6px;
+    width: 10%;
+    border-bottom: none;
+    margin: 100px auto;
+
+}
+
+.title{
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+
+.skill_1 {
+    margin: 60px 20%;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 0;
+}
+
+.skill_1 img{
+    float: left;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.skill_1 h4{
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 140px;
+}
+
+.contact p{
+    margin: 0px 10%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.contact h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.btn{
+    border : 2px solid  #6527BE;
+    padding:  8px 30px;
+    background-color:  #9681EB;
+    color: white;
+    border-radius: 9px;
+}
+.btn:hover{
+    box-shadow: 6px 10px #6527BE;
+}
+
+.bottom-section{
+    background-color: #A7EDE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    margin-top: -20px;
+    margin-bottom: 60px;
+    color: #6527BE;
+}
+
